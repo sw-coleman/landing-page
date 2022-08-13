@@ -1,0 +1,153 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+*{
+    font-family: 'Roboto', sans-serif;
+}
+
+body{
+    display:flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin: 0;
+    padding: 0;
+}
+
+button{
+    border-radius: 8px;
+    background-color: #3882F6;
+    color: white;
+    font-size: 18px;
+}
+
+.but-one{
+    border: 1px solid #3882F6;
+    padding: 16px 8px;
+}
+
+
+header{
+    display: flex;
+    justify-content: space-between;
+    background-color: #1f2937;
+    color: #e5e7eb;
+    padding: 20px 200px;
+}
+
+footer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #1f2937;
+    color: #e5e7eb;
+}
+
+a:link, a:visited, a:hover, a:active{
+    text-decoration: none;
+    color: #e5e7eb;
+}
+
+.links{
+    display: flex;
+    font-size: 18px;
+    gap: 20px;
+}
+
+.logo{
+    font-weight: bold;
+    font-size: 24px;
+    color: #f9faf8
+}
+
+
+#sl-one{
+    display: flex;
+    background-color: #1f2937;
+    padding: 0px 200px 40px 200px;
+    justify-content: space-between;
+}
+
+.title{
+    color: #f9faf8;
+    font-weight: extra-bold;
+    font-size: 48px;
+    flex-wrap: wrap;
+}
+
+#hero-image{
+    width: 400px;
+}
+    
+.body{
+    color: #e5e7eb;
+    font-size: 18px;
+}
+
+#sl-two{
+    background-color: white;
+}
+
+h3{
+    font-size: 36px;
+    font-weight: extra-bold;
+    color: #1f2937;
+    text-align: center;
+}
+
+.tile-image{
+    width: 300px;
+    height: 200px;
+}
+
+.info{
+    display: flex;
+    justify-content: center;
+    gap: 52px;
+    text-align: center;
+}
+
+#sl-three{
+    background-color: #e5e7eb;
+    display: flex;
+    flex-direction: column;
+    padding: 80px 200px;
+}
+
+.mission{
+    text-align: center;
+    font-weight:lighter;
+    font-style: italic;
+    font-size: 36px;
+}
+
+.quote-ref{
+    text-align: right;
+    font-weight: bold;
+    font-size: 18px;
+}
+
+#sl-four{
+    background-color: #3882F6;
+    border-radius: 8px;
+    display: flex;
+    justify-content: space-between;
+    margin: 100px 300px;
+    font-size: 18px;
+}
+
+.title-prompt{
+    font-weight: bold;
+    color: white;
+    padding: 10px 0px 0px 50px;
+}
+
+.body-prompt{
+    color: white;
+    padding: 0px 0px 10px 50px;
+}
+
+.but-two{
+    border: 1px solid #ffffff;
+    margin: 40px 50px;
+    padding: 0px 20px 0px 20px;
+}
+
